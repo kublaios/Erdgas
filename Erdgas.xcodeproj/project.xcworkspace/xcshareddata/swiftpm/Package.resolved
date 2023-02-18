@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "numberwheelpicker",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:kublaios/NumberWheelPicker.git",
+      "state" : {
+        "revision" : "594f6030f2e8b9df91fe36a2901cef2daaedd404",
+        "version" : "0.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}
