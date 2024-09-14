@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E49284429D4EB75009AAF5A /* NumberWheelPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 3E49284329D4EB75009AAF5A /* NumberWheelPicker */; };
+		3EA08E5429A1505000ECB1D3 /* ErdgasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA08E5329A1505000ECB1D3 /* ErdgasApp.swift */; };
+		3EA08E5629A1505000ECB1D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA08E5529A1505000ECB1D3 /* ContentView.swift */; };
+		3EA08E5829A1505100ECB1D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EA08E5729A1505100ECB1D3 /* Assets.xcassets */; };
+		3EA08E7F29A1604B00ECB1D3 /* AddUpdateEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA08E7E29A1604B00ECB1D3 /* AddUpdateEntryView.swift */; };
+		3EA08E8929A2AECB00ECB1D3 /* FoundationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA08E8829A2AECB00ECB1D3 /* FoundationExtensions.swift */; };
+		3EA08E8E29A2B66C00ECB1D3 /* Measurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA08E8D29A2B66C00ECB1D3 /* Measurement.swift */; };
+		3EA08E9029A2B6AE00ECB1D3 /* UserDefaultsDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA08E8F29A2B6AE00ECB1D3 /* UserDefaultsDataStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E0E6C9229B7EAF1000F70DD /* snapshotino */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = snapshotino; path = "/Users/kubilay/Developer/other-ios/snapshotino"; sourceTree = "<absolute>"; };
+		3EA08E5029A1505000ECB1D3 /* Erdgas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Erdgas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EA08E5329A1505000ECB1D3 /* ErdgasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErdgasApp.swift; sourceTree = "<group>"; };
+		3EA08E5529A1505000ECB1D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3EA08E5729A1505100ECB1D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EA08E7D29A150DA00ECB1D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3EA08E7E29A1604B00ECB1D3 /* AddUpdateEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUpdateEntryView.swift; sourceTree = "<group>"; };
+		3EA08E8829A2AECB00ECB1D3 /* FoundationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationExtensions.swift; sourceTree = "<group>"; };
+		3EA08E8D29A2B66C00ECB1D3 /* Measurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Measurement.swift; sourceTree = "<group>"; };
+		3EA08E8F29A2B6AE00ECB1D3 /* UserDefaultsDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsDataStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EA08E4D29A1505000ECB1D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E49284429D4EB75009AAF5A /* NumberWheelPicker in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E0E6C8D29B7E2D8000F70DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E0E6C9229B7EAF1000F70DD /* snapshotino */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3EA08E4729A1505000ECB1D3 = {
+			isa = PBXGroup;
+			children = (
+				3EA08E5229A1505000ECB1D3 /* Erdgas */,
+				3EA08E5129A1505000ECB1D3 /* Products */,
+				3E0E6C8D29B7E2D8000F70DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3EA08E5129A1505000ECB1D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EA08E5029A1505000ECB1D3 /* Erdgas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EA08E5229A1505000ECB1D3 /* Erdgas */ = {
+			isa = PBXGroup;
+			children = (
+				3EA08E7D29A150DA00ECB1D3 /* Info.plist */,
+				3EA08E5329A1505000ECB1D3 /* ErdgasApp.swift */,
+				3EA08E5729A1505100ECB1D3 /* Assets.xcassets */,
+				3EA08E8B29A2AF0E00ECB1D3 /* Extensions */,
+				3EA08E8C29A2B66400ECB1D3 /* Model */,
+				3EA08E8A29A2AF0800ECB1D3 /* View */,
+			);
+			path = Erdgas;
+			sourceTree = "<group>";
+		};
+		3EA08E8A29A2AF0800ECB1D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3EA08E7E29A1604B00ECB1D3 /* AddUpdateEntryView.swift */,
+				3EA08E5529A1505000ECB1D3 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3EA08E8B29A2AF0E00ECB1D3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3EA08E8829A2AECB00ECB1D3 /* FoundationExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3EA08E8C29A2B66400ECB1D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3EA08E8D29A2B66C00ECB1D3 /* Measurement.swift */,
+				3EA08E8F29A2B6AE00ECB1D3 /* UserDefaultsDataStore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EA08E4F29A1505000ECB1D3 /* Erdgas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EA08E7429A1505100ECB1D3 /* Build configuration list for PBXNativeTarget "Erdgas" */;
+			buildPhases = (
+				3EA08E4C29A1505000ECB1D3 /* Sources */,
+				3EA08E4D29A1505000ECB1D3 /* Frameworks */,
+				3EA08E4E29A1505000ECB1D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Erdgas;
+			packageProductDependencies = (
+				3E49284329D4EB75009AAF5A /* NumberWheelPicker */,
+			);
+			productName = Erdgas;
+			productReference = 3EA08E5029A1505000ECB1D3 /* Erdgas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EA08E4829A1505000ECB1D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3EA08E4F29A1505000ECB1D3 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 3EA08E4B29A1505000ECB1D3 /* Build configuration list for PBXProject "Erdgas" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EA08E4729A1505000ECB1D3;
+			packageReferences = (
+				3E49284229D4EB75009AAF5A /* XCRemoteSwiftPackageReference "NumberWheelPicker" */,
+			);
+			productRefGroup = 3EA08E5129A1505000ECB1D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EA08E4F29A1505000ECB1D3 /* Erdgas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EA08E4E29A1505000ECB1D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA08E5829A1505100ECB1D3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EA08E4C29A1505000ECB1D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA08E7F29A1604B00ECB1D3 /* AddUpdateEntryView.swift in Sources */,
+				3EA08E8929A2AECB00ECB1D3 /* FoundationExtensions.swift in Sources */,
+				3EA08E5629A1505000ECB1D3 /* ContentView.swift in Sources */,
+				3EA08E9029A2B6AE00ECB1D3 /* UserDefaultsDataStore.swift in Sources */,
+				3EA08E5429A1505000ECB1D3 /* ErdgasApp.swift in Sources */,
+				3EA08E8E29A2B66C00ECB1D3 /* Measurement.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3EA08E7229A1505100ECB1D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3EA08E7329A1505100ECB1D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EA08E7529A1505100ECB1D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 8S3FTRWYE7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Erdgas/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.kubilayerdogan.Erdgas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EA08E7629A1505100ECB1D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 8S3FTRWYE7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Erdgas/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.kubilayerdogan.Erdgas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EA08E4B29A1505000ECB1D3 /* Build configuration list for PBXProject "Erdgas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EA08E7229A1505100ECB1D3 /* Debug */,
+				3EA08E7329A1505100ECB1D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EA08E7429A1505100ECB1D3 /* Build configuration list for PBXNativeTarget "Erdgas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EA08E7529A1505100ECB1D3 /* Debug */,
+				3EA08E7629A1505100ECB1D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3E49284229D4EB75009AAF5A /* XCRemoteSwiftPackageReference "NumberWheelPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:kublaios/NumberWheelPicker.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3E49284329D4EB75009AAF5A /* NumberWheelPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E49284229D4EB75009AAF5A /* XCRemoteSwiftPackageReference "NumberWheelPicker" */;
+			productName = NumberWheelPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3EA08E4829A1505000ECB1D3 /* Project object */;
+}
